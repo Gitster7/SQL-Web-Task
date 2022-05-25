@@ -23,3 +23,5 @@ Full page Load Time:
 3. London     : 1.37s - Fast
 
 Page Size: 151 KB
+
+calculated using: https://www.dotcom-tools.com/website-speed-test
