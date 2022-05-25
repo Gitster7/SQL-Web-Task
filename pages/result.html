@@ -177,7 +177,7 @@
   </div>
 </div>
 
-<div id="page_settings_modal"><div class="page_settings"><form method="post" action="">
+<div id="page_settings_modal"><div class="page_settings"><form method="get" action="">
   <input type="hidden" name="tab_hash" value="">
       <input type="hidden" name="check_page_refresh" id="check_page_refresh" value="">
     <input type="hidden" name="token" value="465721567a44375238746c433924624a">
@@ -1074,7 +1074,7 @@ SELECT * FROM `orders`
 
         
         <td>
-  <form action="#" method="post">
+  <form action="#" method="get">
      <select class="pageselector ajax" name="pos" >                <option selected="selected" style="font-weight: bold" value="0">1</option>
                 <option  value="25">2</option>
                 <option  value="50">3</option>
@@ -1129,7 +1129,7 @@ SELECT * FROM `orders`
           </div>
         </td>
         <td class="navigation_goto">
-          <form action="#" method="post" class="maxRowsForm">
+          <form action="#" method="get" class="maxRowsForm">
 
             <label for="sessionMaxRowsSelect">Number of rows:</label>
             <select class="autosubmit" name="session_max_rows" id="sessionMaxRowsSelect">
